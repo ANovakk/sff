@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #e61a1a;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #b50e17;
+  width: 100%;
+}
+
+.wrapper{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main{
+  flex: 1 1 auto;
+}
+.logo {
+	width: 100px;
+	height: 100px;
+  cursor: pointer;
+}
+
+.nav__links a,
+.cta, a{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.nav__links, .advantages-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav__links li {
+  padding: 0px 20px;
+}
+
+.nav__links li a{
+  transition: color 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+  color: #821117;
+}
+
+.cta {
+  padding: 9px 25px;
+  background-color: #d1262f;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease 0s;
+}
+
+.cta:hover {
+  background-color: #821117;
+}
+
+.container h1{
+  padding-top: 10px;
+  text-align: center;
+}
+
+.advantages-item-div{
+  text-align: center;
+}
+
+.advantages_list_div{
+  margin-top: 100px;
+}
+
+.advantages-item{
+  padding: 15px;
+  width: 20%;
+}
+
+/* .container p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+} */
+/*FOOTER*/
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20%;
+  background-color: #b50e17;
+  
+}
+.quick__links__list li a:hover {
+  color: #821117;
+}
+.quick__links__list li a {
+  transition: color 0.3s ease 0s;
+}
+
+.advantages-list, .our-advantages-text, .footer__rows__h, .contact__info li, h1, .contact__info p, .container p, .contact-information h2{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.our-advantages-text{
+  text-align: center;
+  font-size: 34px;
+  margin-top: 30px;
+}
+
+.our-advantages{
+  padding: 10%;
+}
+
+.advantages_list_div{
+  border: 7px solid #821117;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.contact-h1{
+  font-size: 70px;
+}
+
+
+
+.contact-information p{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color:  #53697a;
+  text-decoration: none;
+}
+
+.row{
+  padding: 20px;
+} 
+.quick__links__list{
+    columns: 2;
+}
+.quick__links__list, .contact__info{
+  list-style-type: none;
+  margin: 20px 0px;
+}
+.quick__links__list li{
+  padding: 5px 0px;
+}
+
+.contact__info li{
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+}
+.contact__info li p{
+  padding: 0px 10px;
+}
+/*SOCIAL MEDIA*/
+
+/*main*/
+
+/*.container{
+  width: 1170px;
+  margin: 0 auto;
+}*/
+.info{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 10%;
+}
+.info p{
+  width: 500px;
+}
+/*CONTACTS*/
+.contact-main{
+  padding: 10%;
+}
+.contact-information{
+  margin-top: 40px;
+}
+
+.contact-list{
+  padding-top: 13px;
+}
