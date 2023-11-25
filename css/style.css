@@ -22,6 +22,7 @@ header {
 }
 
 .main{
+  margin-top: 80px;
   flex: 1 1 auto;
 }
 .logo {
@@ -73,17 +74,26 @@ header {
   text-align: center;
 }
 
-.advantages-item-div{
-  text-align: center;
-}
 
 .advantages_list_div{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
   margin-top: 100px;
+  border: 7px solid white;
+  padding: 20px;
+  padding-bottom: 70px;
+  border-radius: 50px;
 }
+
 
 .advantages-item{
   padding: 15px;
-  width: 20%;
+  width: 180px;
+  height: 220px;
+  margin-top: 20px;
+  text-align: center;
 }
 
 /* .container p {
@@ -107,28 +117,23 @@ footer{
   transition: color 0.3s ease 0s;
 }
 
-.advantages-list, .our-advantages-text, .footer__rows__h, .contact__info li, h1, .contact__info p, .container p, .contact-information h2{
+.our_services, .about_us_text, .our-advantages, .our-advantages-text, .footer__rows__h, .contact__info li, h1, .contact__info p, .container p, .contact-information h2{
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: #edf0f1;
   text-decoration: none;
 }
 
-.our-advantages-text{
-  text-align: center;
-  font-size: 34px;
-  margin-top: 30px;
-}
 
 .our-advantages{
   padding: 10%;
 }
 
-.advantages_list_div{
-  border: 7px solid #821117;
-  padding: 20px;
-  border-radius: 50px;
+.our_services{
+  padding: 10%;
 }
+
+
 
 .contact-h1{
   font-size: 70px;
@@ -177,10 +182,28 @@ footer{
   align-items: center;
   display: flex;
   justify-content: space-between;
-  padding: 30px 10%;
+  padding: 60px 10%;
 }
-.info p{
+.info_p1{
   width: 500px;
+  font-size: 20px;
+}
+.info_p2{
+  width: 500px;
+  font-size: 15px;
+}
+
+.about_us_text{
+  font-size: 40px;
+  padding-top: 70px;
+  padding-left: 10%;
+}
+.our-advantages-text{
+  font-size: 40px;
+  margin-top: 30px;
+}
+.services_text{
+  font-size: 40px;
 }
 /*CONTACTS*/
 .contact-main{
