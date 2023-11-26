@@ -11,8 +11,16 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
-  background-color: #b50e17;
   width: 100%;
+}
+
+header, .services_text, .our-advantages-text, footer, .about_us_text{
+  background-color: #b50e17;
+}
+
+.info_p2, .text_about_body p{
+  color: #f8adba;
+  /* color: green; */
 }
 
 .wrapper{
@@ -32,7 +40,7 @@ header {
 }
 
 .nav__links a,
-.cta, a{
+.cta, a, .footer__rows__h, .contact__info li, h1, p, h2{
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: #edf0f1;
@@ -87,7 +95,6 @@ header {
   border-radius: 50px;
 }
 
-
 .advantages-item{
   padding: 15px;
   width: 180px;
@@ -96,18 +103,46 @@ header {
   text-align: center;
 }
 
-/* .container p {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  color: #edf0f1;
-  text-decoration: none;
-} */
+.services_list_div{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.text_about{
+  width: 50%;
+  padding-right: 70px; 
+}
+.text_about_body{
+  margin-top: 30px;
+}
+.list_photos{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.photo{
+  width: 200px;
+  height: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 10px solid #821117;
+  border-radius: 30px;
+}
+.photo img{
+  width: 100%;
+  height: 100%;
+}
+
 /*FOOTER*/
 footer{
   display: flex;
   justify-content: space-between;
   padding: 30px 20%;
-  background-color: #b50e17;
+
   
 }
 .quick__links__list li a:hover {
@@ -115,13 +150,6 @@ footer{
 }
 .quick__links__list li a {
   transition: color 0.3s ease 0s;
-}
-
-.our_services, .about_us_text, .our-advantages, .our-advantages-text, .footer__rows__h, .contact__info li, h1, .contact__info p, .container p, .contact-information h2{
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  color: #edf0f1;
-  text-decoration: none;
 }
 
 
@@ -195,15 +223,32 @@ footer{
 
 .about_us_text{
   font-size: 40px;
-  padding-top: 70px;
-  padding-left: 10%;
+  margin-top: 70px;
+  margin-left: 10%;
+  border-radius: 50px;
+  padding: 15px;
+  padding-left: 25px;
+  width: 250px;
 }
 .our-advantages-text{
   font-size: 40px;
-  margin-top: 30px;
+  margin-top: 70px;
+  border-radius: 50px;
+  padding: 15px;
+  padding-left: 25px;
+  width: 600px;
+}
+
+.text_about_header{
+  font-size: 30px;
 }
 .services_text{
   font-size: 40px;
+  margin-top: 70px;
+  border-radius: 50px;
+  padding: 15px;
+  padding-left: 25px;
+  width: 25%;
 }
 /*CONTACTS*/
 .contact-main{
